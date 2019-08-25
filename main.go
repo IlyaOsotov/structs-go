@@ -23,7 +23,7 @@ func main() {
 		},
 	}
 
-	(&alex).updateFirstName("Ilya")
+	alex.updateFirstName("Ilya")
 
 	alex.print()
 }
